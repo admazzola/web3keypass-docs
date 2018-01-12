@@ -1,7 +1,9 @@
  
 
-Web3Keypass - Proof of Payment
+Web3Keypass  
 =======================================
+
+### Simple Proof of Payment
 
 Creating a Keypass is easy and has no extra fee. Just specify:
   * A Unique Name
