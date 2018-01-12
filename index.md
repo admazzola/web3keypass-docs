@@ -27,7 +27,7 @@ Web3Keypass is powered by the decentralized Ethereum database.  Keypass creators
 Usecases
 ========================================
 
-Why would another user purchase a token of your Keypass? Here are some examples:
+Why would another user purchase a token of your Keypass? Here are some possible examples:
 
   * Your web server will allow users with your keypass token to access additional content on your website
 
