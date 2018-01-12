@@ -10,7 +10,7 @@ Creating a Keypass is easy and has no extra fee. Just specify:
   * A Quantity of Passes to Distribute
   * A Price for a Pass (in Ether)
 
-Once you create a new Keypass, anyone with an Ethereum account can purchase a token from you which represents a proof of payment, like a receipt.  You will receive their payment in the Ethereum account you used to create the Keypass.
+Once you create a new Keypass, anyone with an Ethereum account can purchase a token from you which represents a proof of payment, like a receipt.  You will receive their payment in the Ethereum account you used to create the Keypass.  Then, any web services can check the user's token balance and grant or prevent access based on token ownership.  This just requires a connection to the Ethereum blockchain.
 
 [Visit Web3Keypass.com](https://www.web3keypass.com)
 
