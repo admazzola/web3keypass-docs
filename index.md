@@ -16,7 +16,7 @@ Definitions Used
 =======================================
 For the purposes of this documentation:
 
- A 'keypass creator' is someone who defines a new keypass and sells it to other users for Ether.  
+ A 'keypass creator' is someone who defines a new keypass and sells 'keypass tokens' to other users for Ether.  
 
  A 'keypass user' is someone who purchases a keypass token from a 'keypass creator' so that they can experience additional access from the creator's web services (websites, apps, games, etc.)  
 
@@ -45,11 +45,11 @@ Keypass tokens are held by users in their Ethereum account.
 
 Keypass Tools
 ========================================
+ 
+A library of NodeJS tools allows keypass creators to easily turn their web service, online game, or web app into a 'keypassed service'.  This means that the server will ask users for their Ethereum Account Public Address, will check to see if that account holds the right 'keypass token', and will grant additional access if so.  This allows the content creator to very easily be paid by users of the service, without using a centralized service such as PayPal or Credit Cards
 
-When a user logs in to your Keypassed service, they will provide their Ethereum Public Address.  Typically this is done using Metamask.
-
-A library of NodeJS tools allows keypass creators to easily turn their web service, online game, or web app into a 'keypassed service'.  This means that the server will ask users for their Ethereum Account Public Address, will check to see if that account holds the right 'keypass token', and will grant additional access if so.  This allows the content creator to very easily be paid by users of the service, without using a centralized service such as PayPal or Credit Cards.
-
+When a user logs in to a 'keypass-enabled service', they will provide their Ethereum Public Address.  Typically this is done using Metamask.  The service then asks the Ethereum network whether or not this user's account holds a token.  If it does, the server will grant the user access.  Otherwise, it will not.  
+ 
 Web3Keypass is 100% free.  The only costs are Ethereum gas prices.  
 
 Access is Owned by Users
