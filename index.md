@@ -10,7 +10,7 @@ Creating a Keypass is easy and has no extra fee. Just specify:
 
 Once you create a new Keypass, anyone with an Ethereum account can purchase a token from you which represents a proof of payment, like a receipt.  You will receive their payment in the Ethereum account you used to create the Keypass.
 
-[Web3Keypass.com](https://www.web3keypass.com)
+[Visit Web3Keypass.com](https://www.web3keypass.com)
 
 Definitions Used
 =======================================
